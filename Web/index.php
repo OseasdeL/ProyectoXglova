@@ -12,7 +12,6 @@
   </head>
   <body>
    
-
      <header>
         <div class="encabezado">
             <div class="float-start sep">
@@ -27,11 +26,11 @@
         </div>
     </header>
 
-    <div>
-
-
-
-    </div>
+                   <?php
+                   
+                   include("consultacategorias.php");
+                  
+                  ?>
     
     <section>
         <div class="sec1">  
@@ -39,7 +38,7 @@
         </div>
     </section>
 
-    
+
     
               
     <!-- Optional JavaScript; choose one of the two! -->
