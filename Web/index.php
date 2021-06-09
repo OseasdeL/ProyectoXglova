@@ -12,7 +12,6 @@
   </head>
   <body>
    
-
      <header>
         <div class="encabezado">
             <div class="float-start sep">
@@ -21,25 +20,24 @@
                 </a>
             </div>
             <div class="float-end sep">
-                <button class="btn btn-outline-primary" type="submit" onclick="location.href='iniciosesion.html'">Iniciar sesión</button>
+                <button class="btn btn-outline-primary" type="submit" onclick="location.href='inicioadmin.php'">Iniciar sesión</button>
                 <button class="btn btn-primary" type="submit" onclick="location.href='registro.html'">Regístrate</button>
             </div>
         </div>
     </header>
 
-    <div>
-
-
-
-    </div>
-    
+     <div>
+     <?php
+                   include("consultacategorias.php");
+                  ?>
+     </div>
     <section>
         <div class="sec1">  
             <img src="img/fondoseccion1.png" alt="" height="400"s>
         </div>
     </section>
 
-    
+            
     
               
     <!-- Optional JavaScript; choose one of the two! -->

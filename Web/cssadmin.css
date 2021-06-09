@@ -1,0 +1,53 @@
+h2{
+    text-align: center;
+}
+.separado {
+    height: 150px;
+}
+
+.header1{
+
+    height: 30px;
+    background-color: skyblue;
+
+}
+
+p{
+
+    text-align: center;
+}
+
+
+table {
+
+  text-align: justify;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+
+    padding: 10px;
+}
+
+thead{
+
+    background-color: skyblue;
+    border-bottom: solid 5;
+    color: white;
+}
+
+tr:nth-child(even){
+
+background-color: #ddd;
+}
+
+tr:hover td{
+
+    background-color: #00CCFF;
+}
+
+form{
+
+    width: 400px;
+}
