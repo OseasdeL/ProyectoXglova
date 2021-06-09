@@ -11,35 +11,19 @@
     <title>Xglova: Alquila con nosotros</title>
   </head>
   <body>
-   
+     
+     <?php
 
-     <header>
-        <div class="encabezado">
-            <div class="float-start sep">
-                <a href="#">
-                   <img src="img/xglovalogo.png" >
-                </a>
-            </div>
-            <div class="float-end sep">
-                <button class="btn btn-outline-primary" type="submit" onclick="location.href='iniciosesion.html'">Iniciar sesión</button>
-                <button class="btn btn-primary" type="submit" onclick="location.href='registro.html'">Regístrate</button>
-            </div>
-        </div>
-    </header>
-
-    <div>
-
-
-
-    </div>
-    
+        include("consultacategorias.php");
+                  
+     ?>
     <section>
         <div class="sec1">  
-            <img src="img/fondoseccion1.png" alt="" height="400"s>
+            <img src="img/fondoseccion1.png" alt="" height="400">
         </div>
     </section>
 
-    
+            
     
               
     <!-- Optional JavaScript; choose one of the two! -->
