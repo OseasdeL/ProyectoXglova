@@ -1,45 +1,26 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400">
+	  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	  <script type="text/javascript" src="js/menuresponsive.js"></script>
     <link href="styles.css" rel="stylesheet">
     <title>Xglova: Alquila con nosotros</title>
   </head>
   <body>
-   
+     
+     <?php
 
-     <header>
-        <div class="encabezado">
-            <div class="float-start sep">
-                <a href="#">
-                   <img src="img/xglovalogo.png" >
-                </a>
-            </div>
-            <div class="float-end sep">
-                <button class="btn btn-outline-primary" type="submit" onclick="location.href='iniciosesion.html'">Iniciar sesión</button>
-                <button class="btn btn-primary" type="submit" onclick="location.href='registro.html'">Regístrate</button>
-            </div>
-        </div>
-    </header>
-
-    <div>
-
-
-
-    </div>
-    
-    <section>
-        <div class="sec1">  
-            <img src="img/fondoseccion1.png" alt="" height="400"s>
-        </div>
-    </section>
-
-    
+        include("barradenavegacion.php");
+                  
+     ?>
+  
+            
     
               
     <!-- Optional JavaScript; choose one of the two! -->
