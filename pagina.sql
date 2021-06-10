@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `categorias`
 --
 
+
+use pagina;
 CREATE TABLE `categorias` (
   `idcategoria` bigint NOT NULL,
   `categoria` varchar(30) NOT NULL,
